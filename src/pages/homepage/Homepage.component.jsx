@@ -1,13 +1,13 @@
 import React from 'react';
-import Hero from '../../components/hero/Hero.component';
-import ShoppingList from '../../components/shopping-list/ShoppingList.component';
+import { JumbotronContainer, FooterContainer } from '../../containers';
 import './Homepage.styles.scss';
 
 const Homepage = () => {
+
   return (
     <section className="section-homepage">
-      <Hero />
-      <ShoppingList />
+      <JumbotronContainer />
+      <FooterContainer />
     </section>
   );
 };

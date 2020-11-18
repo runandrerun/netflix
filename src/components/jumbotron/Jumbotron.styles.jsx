@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 export const Item = styled.div`
   dispay: flex;
   border-bottom: .5rem solid #222;
-  padding: 10rem 5%;
+  padding: 5rem 5%;
   color: white;
   overflow: hidden;
 `;
@@ -35,7 +35,7 @@ export const Pane = styled.div`
 
   @media (max-width: 1000px) {
     width: 100%;
-    padding: 0 4.5rem;
+    padding: 0 2rem;
     text-align: center;
   }
 `;

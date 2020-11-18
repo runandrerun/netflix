@@ -1,5 +1,5 @@
 import React from 'react';
-import { JumbotronContainer, FooterContainer } from '../../containers';
+import { JumbotronContainer, FooterContainer, FAQsContainer } from '../../containers';
 import './Homepage.styles.scss';
 
 const Homepage = () => {
@@ -7,6 +7,7 @@ const Homepage = () => {
   return (
     <section className="section-homepage">
       <JumbotronContainer />
+      <FAQsContainer />
       <FooterContainer />
     </section>
   );

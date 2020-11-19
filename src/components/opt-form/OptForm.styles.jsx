@@ -25,7 +25,7 @@ export const Input = styled.input`
 export const Button = styled.button`
   display: flex;
   align-items: center;
-  height: 71px;
+  height: 70px;
   background-color: #e50914;
   color: white;
   text-transform: uppercase;
@@ -63,7 +63,7 @@ export const Text = styled.p`
   font-size: 19.2px;
   color: white;
   text-align: center;
-
+  margin: 1rem auto;
   @media (max-width: 600px) {
     font-size: 1rem;
     line-height: 22px;

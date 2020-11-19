@@ -10,4 +10,4 @@ const firebase = Firebase.initializeApp(config);
 
 // seedDatabase(firebase);
 
-export { firebase };
+export default { firebase };

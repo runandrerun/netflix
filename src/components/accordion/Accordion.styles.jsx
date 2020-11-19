@@ -29,7 +29,7 @@ export const Title = styled.h1`
 export const Item = styled.div`
   color: white;
   margin-bottom: .8rem;
-  max-width: 670px;
+  max-width: 700px;
   margin: auto;
   width: 100%;
 
@@ -39,7 +39,7 @@ export const Item = styled.div`
 `;
 
 export const Header = styled.div`
-  max-width: 670px;
+  max-width: 700px;
   display: flex;
   justify-content: space-between;
   cursor: pointer;
@@ -66,7 +66,7 @@ export const Header = styled.div`
 `;
 
 export const Body = styled.p`
-  max-width: 670px;
+  max-width: 700px;
   max-height: 1200px;
   transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
   font-size: 26px;
